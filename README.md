@@ -52,7 +52,6 @@ application.register("autosave", Autosave)
 
   <div class="field">
     <%= f.label :completed %>
-    <!-- With default event! -->
     <%= f.check_box :completed, data: { action: 'autosave#save' } %>
   </div>
 
