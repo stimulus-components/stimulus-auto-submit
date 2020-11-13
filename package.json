@@ -1,0 +1,64 @@
+{
+  "name": "stimulus-rails-autosave",
+  "version": "0.0.0",
+  "description": "A Stimulus controller to autosubmit Rails forms.",
+  "keywords": [
+    "stimulus",
+    "stimulusjs",
+    "stimulus controller",
+    "rails",
+    "rails-ujs",
+    "autosave",
+    "form"
+  ],
+  "repository": "git@github.com:stimulus-components/stimulus-rails-autosave.git",
+  "bugs": {
+    "url": "https://github.com/stimulus-components/stimulus-rails-autosave/issues"
+  },
+  "author": "Guillaume Briday <guillaumebriday@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/stimulus-components/stimulus-rails-autosave",
+  "private": false,
+  "esnext": "dist-src/index.js",
+  "main": "dist-node/index.js",
+  "module": "dist-web/index.js",
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg"
+      ],
+      [
+        "@pika/plugin-build-web"
+      ],
+      [
+        "@pika/plugin-build-node"
+      ]
+    ]
+  },
+  "scripts": {
+    "format": "prettier-standard '**/*.{js,css,html}' --format",
+    "lint": "prettier-standard '**/*.{js,css,html}' --lint",
+    "build": "pika build",
+    "pika:publish": "pika publish --no-tests --no-2fa",
+    "version": "yarn build"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.3",
+    "@babel/plugin-syntax-class-properties": "7.12.1",
+    "@babel/preset-env": "7.12.1",
+    "@pika/pack": "0.5.0",
+    "@pika/plugin-build-node": "0.9.2",
+    "@pika/plugin-build-web": "0.9.2",
+    "@pika/plugin-standard-pkg": "0.9.2",
+    "@rails/ujs": "^6.0.3-4",
+    "prettier-standard": "16.4.1",
+    "stimulus": "^1.1.1"
+  },
+  "peerDependencies": {
+    "@rails/ujs": "^6.0.3-4",
+    "stimulus": "^1.1.1"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8"
+  }
+}
