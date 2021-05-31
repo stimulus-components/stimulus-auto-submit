@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es6"],
+    "types": ["lodash"],
+    "skipLibCheck": true,
+    "target": "es6",
+    "moduleResolution": "node"
+  }
+}

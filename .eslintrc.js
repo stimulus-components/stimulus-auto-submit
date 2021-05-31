@@ -8,7 +8,6 @@ module.exports = {
   },
 
   globals: {
-    page: 'readonly',
     Rails: 'readonly'
   }
 }
