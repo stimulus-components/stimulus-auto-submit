@@ -38,13 +38,13 @@
     "@types/rails__ujs": "^6.0.0",
     "np": "^7.5.0",
     "prettier-standard": "16.4.1",
-    "stimulus": "^2.0.0",
+    "@hotwired/stimulus": "^3.0.0",
     "typescript": "^4.3.2",
     "vite": "^2.3.4"
   },
   "peerDependencies": {
     "@rails/ujs": "^6.0.3-4",
-    "stimulus": "^2.0.0"
+    "@hotwired/stimulus": "^3.0.0"
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8"
