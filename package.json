@@ -29,22 +29,22 @@
     "np": "np --no-2fa --no-test"
   },
   "devDependencies": {
-    "@babel/core": "7.14.3",
+    "@babel/core": "7.15.5",
     "@babel/plugin-syntax-class-properties": "7.12.13",
-    "@babel/preset-env": "^7.14.4",
-    "@babel/preset-typescript": "^7.13.0",
-    "@rails/ujs": "^6.0.3-7",
-    "@types/lodash": "^4.14.170",
-    "@types/rails__ujs": "^6.0.0",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-typescript": "^7.15.0",
+    "@hotwired/stimulus": "^3.0.0",
+    "@rails/ujs": "^6.1.4-1",
+    "@types/lodash": "^4.14.175",
+    "@types/rails__ujs": "^6.0.1",
     "np": "^7.5.0",
     "prettier-standard": "16.4.1",
-    "@hotwired/stimulus": "^3.0.0",
-    "typescript": "^4.3.2",
-    "vite": "^2.3.4"
+    "typescript": "^4.4.3",
+    "vite": "^2.6.0"
   },
   "peerDependencies": {
-    "@rails/ujs": "^6.0.3-4",
-    "@hotwired/stimulus": "^3.0.0"
+    "@hotwired/stimulus": "^3.0.0",
+    "@rails/ujs": "^6.0.3-4"
   },
   "dependencies": {
     "lodash.debounce": "^4.0.8"
