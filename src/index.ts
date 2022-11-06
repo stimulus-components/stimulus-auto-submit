@@ -1,8 +1,10 @@
 import { Controller } from '@hotwired/stimulus'
-import { debounce } from 'lodash'
+import debounce from 'lodash.debounce'
 import * as Rails from '@rails/ujs'
 
 export default class extends Controller {
+  // @ts-ignore
+  element: HTMLFormElement
   delayValue: number
 
   static values = {
@@ -20,8 +22,10 @@ export default class extends Controller {
   }
 
   save (): void {
-    if (!window._rails_loaded) return
-
-    Rails.fire(this.element, 'submit')
+    if (window._rails_loaded) {
+      Rails.fire(this.element, 'submit')
+    } else {
+      this.element.requestSubmit()
+    }
   }
 }
