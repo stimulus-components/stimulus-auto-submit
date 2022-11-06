@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [4.1.0] - 2022-11-06
+
+### Chore
+
+- Upgrading to node 18
+- Upgrading dependencies
+- Using `lodash.debounce` instead of `lodash`
+- Using `requestSubmit` if `@rails/ujs` is not detected, so we can use this package without Rails-ujs at all.
+
 ## [4.0.0] - 2021-09-29
 
 ### Chore
