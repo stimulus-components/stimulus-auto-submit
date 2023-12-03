@@ -20,7 +20,7 @@
   "homepage": "https://github.com/stimulus-components/stimulus-rails-autosave",
   "private": false,
   "main": "dist/stimulus-rails-autosave.umd.js",
-  "module": "dist/stimulus-rails-autosave.es.js",
+  "module": "dist/stimulus-rails-autosave.mjs",
   "scripts": {
     "format": "prettier-standard  '**/*.{ts,css,html}' --format",
     "lint": "prettier-standard  '**/*.{ts,css,html}' --lint",
