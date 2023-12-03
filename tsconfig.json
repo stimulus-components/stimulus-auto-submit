@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "lib": ["dom", "es6"],
-    "types": ["lodash", "rails__ujs"],
+    "types": ["lodash"],
     "skipLibCheck": true,
     "target": "es6",
     "moduleResolution": "node"
