@@ -24,11 +24,6 @@ export default class extends Controller {
   }
 
   save (): void {
-    if (window._rails_loaded) {
-      // @ts-ignore
-      Rails.fire(this.element, 'submit')
-    } else {
-      this.element.requestSubmit()
-    }
+    this.element.requestSubmit()
   }
 }
