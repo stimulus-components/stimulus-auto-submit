@@ -1,6 +1,6 @@
 {
   "name": "stimulus-rails-autosave",
-  "version": "4.1.1",
+  "version": "5.0.0",
   "description": "A Stimulus controller to autosubmit Rails forms.",
   "keywords": [
     "stimulus",
