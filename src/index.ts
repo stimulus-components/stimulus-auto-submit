@@ -7,7 +7,10 @@ export default class extends Controller {
   delayValue: number
 
   static values = {
-    delay: Number
+    delay: {
+      type: Number,
+      default: 150,
+    },
   }
 
   initialize (): void {
