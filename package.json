@@ -26,7 +26,7 @@
     "lint": "prettier-standard  '**/*.{ts,css,html}' --lint",
     "build": "tsc --noEmit && vite build",
     "version": "yarn build",
-    "np": "np --no-2fa --no-test"
+    "np": "np --no-2fa --no-tests"
   },
   "devDependencies": {
     "@babel/core": "7.23.5",
