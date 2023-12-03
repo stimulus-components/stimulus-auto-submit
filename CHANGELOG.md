@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [5.0.0] - 2023-12-02
+
+### Chore
+
+- **Breaking** Remove `@rails/ujs` support. Migrate to Turbo.
+- Change the default `delay` option from `0` to `150`.
+- Upgrading dependencies
+
 ## [4.1.1] - 2022-11-06
 
 - Removing `@rails/ujs` from dependencies. Making `@rails/ujs` completely optional.
