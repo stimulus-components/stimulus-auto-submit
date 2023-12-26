@@ -24,27 +24,28 @@
   "scripts": {
     "format": "prettier-standard  '**/*.{ts,css,html}' --format",
     "lint": "prettier-standard  '**/*.{ts,css,html}' --lint",
+    "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "version": "yarn build",
     "np": "np --no-2fa --no-tests"
   },
   "devDependencies": {
-    "@babel/core": "7.23.5",
+    "@babel/core": "7.23.6",
     "@babel/plugin-syntax-class-properties": "7.12.13",
-    "@babel/preset-env": "^7.23.5",
+    "@babel/preset-env": "^7.23.6",
     "@babel/preset-typescript": "^7.23.3",
     "@hotwired/stimulus": "^3.2.2",
-    "@types/lodash": "^4.14.202",
-    "np": "^9.0.0",
+    "@hotwired/turbo": "^8.0.0-beta.2",
+    "autoprefixer": "^10.4.16",
+    "np": "^9.2.0",
+    "postcss": "^8.4.32",
     "prettier-standard": "16.4.1",
-    "typescript": "^5.3.2",
-    "vite": "^5.0.4"
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
   },
   "peerDependencies": {
     "@hotwired/stimulus": "^3.1.1"
-  },
-  "dependencies": {
-    "lodash.debounce": "^4.0.8"
   },
   "resolutions": {
     "prettierx": "~0.19.0"

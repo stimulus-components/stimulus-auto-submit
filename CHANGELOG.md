@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Chore
 
 - Adding interactive example
+- Using a `debounce` function without `lodash.debounce`.
 
 ## [5.0.1] - 2023-12-02
 

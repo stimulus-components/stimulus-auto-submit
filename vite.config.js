@@ -7,11 +7,10 @@ module.exports = {
       name: 'stimulus-rails-autosave'
     },
     rollupOptions: {
-      external: ['@hotwired/stimulus', 'lodash.debounce'],
+      external: ['@hotwired/stimulus'],
       output: {
         globals: {
-          '@hotwired/stimulus': 'Stimulus',
-          'lodash.debounce': 'debounce'
+          '@hotwired/stimulus': 'Stimulus'
         }
       }
     }

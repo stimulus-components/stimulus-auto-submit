@@ -1,9 +1,7 @@
 import { Controller } from '@hotwired/stimulus'
-import debounce from 'lodash.debounce'
+import { debounce } from './utils'
 
-export default class extends Controller {
-  // @ts-ignore
-  element: HTMLFormElement
+export default class extends Controller<HTMLFormElement> {
   delayValue: number
 
   static values = {

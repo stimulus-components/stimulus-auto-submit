@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "lib": ["dom", "es6"],
-    "types": ["lodash"],
+    "types": ["vite/client"],
     "skipLibCheck": true,
     "target": "es6",
     "moduleResolution": "node"
