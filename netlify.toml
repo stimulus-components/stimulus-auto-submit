@@ -3,7 +3,7 @@
   command="yarn prod"
 
 [[redirects]]
-  from = "https://stimulus-rails-autosave.netlify.app/*"
-  to = "https://stimulus-rails-autosave.stimulus-components.com/:splat"
+  from = "https://stimulus-auto-submit.netlify.app/*"
+  to = "https://stimulus-auto-submit.stimulus-components.com/:splat"
   status = 301
   force = true

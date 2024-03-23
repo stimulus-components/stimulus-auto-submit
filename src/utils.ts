@@ -1,4 +1,4 @@
-export function debounce (callback: Function, delay: number) {
+export function debounce(callback: Function, delay: number) {
   let timeout: number
 
   return (...args) => {

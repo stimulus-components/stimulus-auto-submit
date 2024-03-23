@@ -1,7 +1,7 @@
-import { Controller } from '@hotwired/stimulus'
-import { debounce } from './utils'
+import { Controller } from "@hotwired/stimulus"
+import { debounce } from "./utils"
 
-export default class extends Controller<HTMLFormElement> {
+export default class AutoSubmit extends Controller<HTMLFormElement> {
   delayValue: number
 
   static values = {
@@ -11,17 +11,17 @@ export default class extends Controller<HTMLFormElement> {
     },
   }
 
-  initialize (): void {
-    this.save = this.save.bind(this)
+  initialize(): void {
+    this.submit = this.submit.bind(this)
   }
 
-  connect (): void {
+  connect(): void {
     if (this.delayValue > 0) {
-      this.save = debounce(this.save, this.delayValue)
+      this.submit = debounce(this.submit, this.delayValue)
     }
   }
 
-  save (): void {
+  submit(): void {
     this.element.requestSubmit()
   }
 }
