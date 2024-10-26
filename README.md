@@ -1,22 +1,13 @@
 # Stimulus Auto Submit
 
-[![](https://img.shields.io/npm/dt/stimulus-auto-submit.svg)](https://www.npmjs.com/package/stimulus-auto-submit)
-[![](https://img.shields.io/npm/v/stimulus-auto-submit.svg)](https://www.npmjs.com/package/stimulus-auto-submit)
-[![](https://github.com/stimulus-components/stimulus-auto-submit/workflows/Lint/badge.svg)](https://github.com/stimulus-components/stimulus-auto-submit)
-[![](https://img.shields.io/github/license/stimulus-components/stimulus-auto-submit.svg)](https://github.com/stimulus-components/stimulus-auto-submit)
+## 🚚 📦 This project has moved
 
-## Getting started
-
-A Stimulus controller to autosubmit Rails forms.
+This repository is now maintained in the main [Stimulus Components monorepo](https://github.com/stimulus-components/stimulus-components).
 
 ## 📚 Documentation
 
-See [stimulus-auto-submit documentation](https://stimulus-components.netlify.app/docs/components/stimulus-auto-submit/).
-
-## 👷‍♂️ Contributing
-
-Do not hesitate to contribute to the project by adapting or adding features ! Bug reports or pull requests are welcome.
+Visit the [stimulus-auto-submit documentation](https://www.stimulus-components.com/docs/stimulus-auto-submit/) for more information on how to use and integrate this controller.
 
 ## 📝 License
 
-This project is released under the [MIT](http://opensource.org/licenses/MIT) license.
+This project remains licensed under the [MIT](http://opensource.org/licenses/MIT) license.
